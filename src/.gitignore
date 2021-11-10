@@ -57,7 +57,5 @@ Canvases*
 # sites/*
 # siteDotComSites/*
 
-reports/*
-dashboards/*
-documents/*
+
 flowDefinitions/*
