@@ -20,6 +20,10 @@
                 <outputField>City</outputField>
             </mappingFields>
             <mappingFields>
+                <inputField>AccountId</inputField>
+                <outputField>Company</outputField>
+            </mappingFields>
+            <mappingFields>
                 <inputField>Email</inputField>
                 <outputField>Email</outputField>
             </mappingFields>
@@ -46,10 +50,6 @@
             <mappingFields>
                 <inputField>MailingPostalCode</inputField>
                 <outputField>PostalCode</outputField>
-            </mappingFields>
-            <mappingFields>
-                <inputField>AccountId</inputField>
-                <outputField>Company</outputField>
             </mappingFields>
             <outputObject>Lead</outputObject>
         </objectMapping>
