@@ -7161,7 +7161,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <inlineHelpText>Current status of the implementation of the User Story.</inlineHelpText>
         <label>Status</label>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -7187,6 +7187,16 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                     <fullName>Developer Assigned</fullName>
                     <default>false</default>
                     <label>Developer Assigned</label>
+                </value>
+                <value>
+                    <fullName>To Do</fullName>
+                    <default>false</default>
+                    <label>To Do</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
                 </value>
                 <value>
                     <fullName>Development In Progress</fullName>
@@ -7247,6 +7257,11 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                     <fullName>Cancelled</fullName>
                     <default>false</default>
                     <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>DONE</fullName>
+                    <default>false</default>
+                    <label>DONE</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -7987,6 +8002,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
+                <fullName>DONE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Developer Assigned</fullName>
                 <default>false</default>
             </values>
@@ -8004,6 +8023,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Grooming Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8036,6 +8059,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Requirements Verified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8458,6 +8485,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
+                <fullName>DONE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Developer Assigned</fullName>
                 <default>false</default>
             </values>
@@ -8475,6 +8506,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Grooming Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8507,6 +8542,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Requirements Verified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8929,6 +8968,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
+                <fullName>DONE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Developer Assigned</fullName>
                 <default>false</default>
             </values>
@@ -8946,6 +8989,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Grooming Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8978,6 +9025,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Requirements Verified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
             <values>

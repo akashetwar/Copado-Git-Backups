@@ -715,6 +715,10 @@
             <translation><!-- Cancelled --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>DONE</masterLabel>
+            <translation><!-- DONE --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Developer Assigned</masterLabel>
             <translation><!-- Developer Assigned --></translation>
         </picklistValues>
@@ -733,6 +737,10 @@
         <picklistValues>
             <masterLabel>Grooming Complete</masterLabel>
             <translation><!-- Grooming Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>No Merge Conflicts</masterLabel>
@@ -765,6 +773,10 @@
         <picklistValues>
             <masterLabel>Requirements Verified</masterLabel>
             <translation><!-- Requirements Verified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Do</masterLabel>
+            <translation><!-- To Do --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>UAT Complete</masterLabel>
