@@ -10,6 +10,6 @@
     <enableRestrictEmailDomains>false</enableRestrictEmailDomains>
     <enableScrambleUserData>false</enableScrambleUserData>
     <enableUserSelfDeactivate>true</enableUserSelfDeactivate>
-    <psaExpirationUIEnabled>false</psaExpirationUIEnabled>
+    <psaExpirationUIEnabled>true</psaExpirationUIEnabled>
     <restrictedProfileCloning>true</restrictedProfileCloning>
 </UserManagementSettings>
